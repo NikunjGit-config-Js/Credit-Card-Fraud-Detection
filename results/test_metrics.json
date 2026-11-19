@@ -1,0 +1,16 @@
+{
+  "selected_on": "validation PR-AUC",
+  "experiment": "imbalanced",
+  "model": "logistic_regression",
+  "test": {
+    "precision": 0.96,
+    "recall": 0.6316,
+    "f1": 0.7619,
+    "pr_auc": 0.816,
+    "roc_auc": 0.9762,
+    "tn": 21961,
+    "fp": 1,
+    "fn": 14,
+    "tp": 24
+  }
+}

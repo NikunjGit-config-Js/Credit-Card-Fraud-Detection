@@ -1,0 +1,12 @@
+experiment,model,train_rows,train_frauds,precision,recall,f1,pr_auc,roc_auc,tn,fp,fn,tp
+imbalanced,logistic_regression,240000,415,0.9032,0.7179,0.8,0.8301,0.9736,22765,3,11,28
+imbalanced,shallow_nn_2_units,240000,415,0.8684,0.8462,0.8571,0.7946,0.9825,22763,5,6,33
+imbalanced,random_forest_depth2,240000,415,0.8929,0.641,0.7463,0.8184,0.9544,22765,3,14,25
+imbalanced,gradient_boosting,240000,415,0.8214,0.5897,0.6866,0.4851,0.7948,22763,5,16,23
+imbalanced,linear_svm_balanced,240000,415,0.0817,0.9744,0.1508,0.7957,0.9926,22341,427,1,38
+balanced_undersampled,logistic_regression,830,415,0.0437,0.9744,0.0837,0.7312,0.993,21937,831,1,38
+balanced_undersampled,shallow_nn_2_units,830,415,0.05,0.9231,0.0949,0.2799,0.9823,22084,684,3,36
+balanced_undersampled,random_forest_depth2,830,415,0.1706,0.9231,0.288,0.766,0.9965,22593,175,3,36
+balanced_undersampled,gradient_boosting,830,415,0.0293,0.9231,0.0568,0.177,0.9888,21575,1193,3,36
+balanced_undersampled,linear_svm_balanced,830,415,0.0464,0.9744,0.0886,0.777,0.9939,21987,781,1,38
+balanced_undersampled,shallow_nn_1_unit,830,415,0.0516,0.9231,0.0977,0.4329,0.9848,22106,662,3,36

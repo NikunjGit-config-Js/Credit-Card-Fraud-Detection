@@ -1,0 +1,20 @@
+{
+  "data_sha256": "76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89",
+  "rows": 284807,
+  "frauds": 492,
+  "seed": 1,
+  "split_rows": {
+    "train": 240000,
+    "validation": 22807,
+    "test": 22000
+  },
+  "split_frauds": {
+    "train": 415,
+    "validation": 39,
+    "test": 38
+  },
+  "python": "3.12.10",
+  "scikit_learn": "1.9.1",
+  "pandas": "3.1.1",
+  "tensorflow": "2.21.0"
+}
